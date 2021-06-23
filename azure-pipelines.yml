@@ -16,3 +16,4 @@ steps:
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
     projectName: 'PHP'
+    configuration: 'php.resolveDependencies=false'
